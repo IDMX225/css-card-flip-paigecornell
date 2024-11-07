@@ -1,3 +1,15 @@
 /* main */
 @use "./base/reset";
 @use "./pages/home";
+
+*::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    }
+    
+    body {
+    height: 100vh;
+    display: grid;
+    place-items: center; 
+    }
+        
