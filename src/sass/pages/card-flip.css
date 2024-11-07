@@ -45,6 +45,8 @@
   bottom: 0;
   left: 0;
   right: 0;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   }
 
   .card-front{
@@ -62,4 +64,6 @@
   bottom: 0; 
   left: 0;
   right: 0; 
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   }
