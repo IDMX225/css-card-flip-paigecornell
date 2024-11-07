@@ -22,12 +22,16 @@ h1 {
   }
   
   .card:hover .card__content {
-  transform: rotate(90deg);
+  transform: rotateY(.5turn);
   }
   
   .card__content {
   text-align: center;
-  position: relative; 
+  position: relative;
+  padding: 5em; 
+  transition: transform 3s;  
+  background: pink; 
+  transform-style: preserve-3d; 
   }
   
   .card__front, 
@@ -37,6 +41,12 @@ h1 {
   bottom: 0;
   left: 0;
   right: 0; 
+  padding: 2em; 
+  transform-style: preserve-3d;
   }
 
+.card__title {
+font-size: 2rem;
+transform: translateZ(200px);
+}
   
