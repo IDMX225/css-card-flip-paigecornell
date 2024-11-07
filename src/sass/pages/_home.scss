@@ -18,7 +18,7 @@ h1 {
 /*css begins*/
 
 .card {
-  width: 400px; 
+  width: 500px;
   }
   
   .card:hover .card__content {
@@ -32,6 +32,7 @@ h1 {
   transition: transform 3s;  
   background: pink; 
   transform-style: preserve-3d; 
+  height: 600px; 
   }
   
   .card__front, 
@@ -47,16 +48,16 @@ h1 {
   }
 
   .card__subtitle{
-  transform: translateZ(2rem);
+  transform: translateZ(4rem);
   }
 
 .card__body {
- transform: translateZ(2rem);
+ transform: translateZ(3rem);
   }
 
 .card__title {
 font-size: 2rem;
-transform: translateZ(200px);
+transform: translateZ(100px);
 }
   
 .card__back {
