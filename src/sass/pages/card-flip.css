@@ -16,7 +16,8 @@
   width: 400px; 
   }
   .card:hover {
-  transform: rotateY(.5turn);
+  transform: rotateY(.25turn);
+  transition: trnasform 3s; 
 
   }
 
@@ -27,23 +28,28 @@
   .card-content {
   text-align: center; 
   position: relative;
-  transition: transform; 
+  transition: transform 3s; 
   background: pink;  
-  transform-style: flat; 
+  transform-style: preserve-3d; 
   }
 
   .card-front {
-  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
-  right: 0; 
-  transform: rotateY (.25turn);
-  background: lightblue;
+  right: 0;
+  }
+
+  .card-front{
+  position: absolute; 
+  transform: rotateY(.25turn);
+
+  
   }
 
   .card-back {
-  position: absolute;
+  position: absolute; 
+  background-color: lightblue;
   top: 0;
   bottom: 0; 
   left: 0;
