@@ -42,7 +42,7 @@
   transform-style: preserve-3d; 
   }
 
-  .card-front {
+  .card-back{
   position: absolute; 
   top: 0;
   bottom: 0;
@@ -52,7 +52,7 @@
   backface-visibility: hidden;
   }
 
-  .card-front{
+  .card-back{
   position: absolute; 
   transform: rotateY(.5turn);
   text-rendering: geometricPrecision;
@@ -61,7 +61,7 @@
 
   .card-title{
   font-size: 3rem;
-  transform: translateZ(200px);
+  transform: translateZ(00px);
   }
 
   img.src {
@@ -71,7 +71,7 @@
   }
 
 
-  .card-back {
+  .card-front {
   position: absolute; 
   background-color: lightblue;
   transform-style: preserve-3d;
