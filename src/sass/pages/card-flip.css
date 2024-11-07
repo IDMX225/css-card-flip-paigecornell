@@ -33,6 +33,7 @@
   position: relative;
   width: 20%;
   height: 90%; 
+  margin-bottom: 300px;
   transition: transform 3s; 
   background: pink;  
   transform-style: preserve-3d; 
