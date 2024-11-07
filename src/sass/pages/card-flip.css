@@ -52,6 +52,8 @@
   .card-front{
   position: absolute; 
   transform: rotateY(.25turn);
+  text-rendering: geometricPrecision;
+  direction: ltr;
 
   
   }
