@@ -1,0 +1,38 @@
+
+/*css begins*/
+
+*::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  }
+  
+  body {
+  height: 100vh;
+  display: grid;
+  place-items: center; 
+  }
+
+  .card {
+  width: 400px; 
+  }
+
+  .card-content {
+  text-align: center; 
+  position: relative; 
+  }
+
+  .card-front {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  }
+
+  .card-back {
+  position: absolute;
+  top: 0;
+  bottom: 0; 
+  left: 0;
+  right: 0; 
+  }
