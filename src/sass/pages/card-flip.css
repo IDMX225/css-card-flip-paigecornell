@@ -15,10 +15,20 @@
   .card {
   width: 400px; 
   }
+  .card:hover {
+  transform: rotateY(.5turn);
+
+  }
+
+  .card-content {
+  transform: rotateY(.5turn);
+  }
 
   .card-content {
   text-align: center; 
-  position: relative; 
+  position: relative;
+  transition: transform; 
+  background: pink;  
   }
 
   .card-front {
