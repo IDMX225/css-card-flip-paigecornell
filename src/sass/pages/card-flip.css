@@ -13,9 +13,12 @@
   }
 
   .card {
-  width: 400px; 
+  width: 300px;
+  height: 300px;
+  perspective: 1000px; 
   }
-  .card:hover {
+
+  .card:hover, .card-content {
   transform: rotateY(.25turn);
   transition: transform 3s; 
 
@@ -28,6 +31,8 @@
   .card-content {
   text-align: center; 
   position: relative;
+  width: 20%;
+  height: 90%; 
   transition: transform 3s; 
   background: pink;  
   transform-style: preserve-3d; 
