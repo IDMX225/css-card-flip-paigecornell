@@ -29,6 +29,7 @@
   position: relative;
   transition: transform; 
   background: pink;  
+  transform-style: flat; 
   }
 
   .card-front {
@@ -38,6 +39,7 @@
   left: 0;
   right: 0; 
   transform: rotateY (.25turn);
+  background: lightblue;
   }
 
   .card-back {
