@@ -4,7 +4,7 @@
 
 body {
   font-family: type.$font;
-  background-color: var.$bg-very-light;
+  background-color: white; 
   width: min(100% - 2rem, 60ch);
   margin-inline: auto;
   margin-block: 4rem;
@@ -13,4 +13,55 @@ body {
 h1 {
   color: var.$primary-color;
   text-align: center;
+}
+
+/*css begins*/
+
+
+.card {
+  width: 500px;
+  }
+  
+  .card:hover .card__content {
+  transform: rotateY(.5turn);
+  }
+  
+  .card__content {
+  text-align: center;
+  position: relative;
+  padding: 5em; 
+  transition: transform 3s;  
+  background: pink; 
+  transform-style: preserve-3d; 
+  height: 600px; 
+  }
+  
+  .card__front, 
+  .card__back {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  padding: 2em; 
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  }
+
+  .card__subtitle{
+  transform: translateZ(4rem);
+  }
+
+.card__body {
+ transform: translateZ(3rem);
+  }
+
+.card__title {
+font-size: 2rem;
+transform: translateZ(100px);
+}
+  
+.card__back {
+transform: rotateY(.5turn);
+background: plum;
 }
